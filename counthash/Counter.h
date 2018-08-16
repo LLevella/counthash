@@ -1,0 +1,15 @@
+#pragma once
+
+//////////////////////////////////////////////////////////////////////
+//  Класс для произведения подсчетов
+//////////////////////////////////////////////////////////////////////
+
+class Counter
+{
+
+public:
+
+	long Calc(std::ifstream& input) const;
+
+	long Calc(std::ifstream& input, std::string& words) const;
+};
